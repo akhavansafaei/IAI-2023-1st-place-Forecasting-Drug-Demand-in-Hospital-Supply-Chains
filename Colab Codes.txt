@@ -1,0 +1,5 @@
+1. Hamedan - Train
+https://colab.research.google.com/drive/1tctYTAZQv-AmvyPr-kX4XbBFxHGveMBC?usp=sharing
+
+2. Hamedan - Test
+https://colab.research.google.com/drive/1s9_bQFKrsFqm_Haj9JQVwxFibPC72ncn?usp=sharing
