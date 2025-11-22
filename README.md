@@ -3,8 +3,11 @@
 [![Competition](https://img.shields.io/badge/Competition-IAI%202023-blue)](https://iai-competitions.ir/)
 [![Rank](https://img.shields.io/badge/Rank-1st%20Place-gold)](https://github.com)
 [![Deep Learning](https://img.shields.io/badge/Deep%20Learning-LSTM%2FBiLSTM-green)](https://www.tensorflow.org/)
+[![Publication](https://img.shields.io/badge/Published-JMSS%202025-success)](https://journals.lww.com/jmss)
 
 This repository contains the **first-place solution** for the IAI 2023 competition on forecasting drug demand in hospital supply chains. The goal was to predict daily drug consumption across 12 hospitals in Hamedan province, Iran, for the period from January 1, 2023, to October 30, 2023.
+
+**📄 Published Paper**: This work has been published in the *Journal of Medical Signals & Sensors* (2025). See [Citation](#citation) section below.
 
 ## 📋 Table of Contents
 
@@ -18,6 +21,8 @@ This repository contains the **first-place solution** for the IAI 2023 competiti
 - [Installation](#installation)
 - [Usage](#usage)
 - [File Structure](#file-structure)
+- [Publication](#publication)
+- [Citation](#citation)
 - [Contributors](#contributors)
 
 ## 🎯 Problem Statement
@@ -353,30 +358,81 @@ IAI-2023-1st-place-Forecasting-Drug-Demand-in-Hospital-Supply-Chains/
 
 ## 🏅 Competition Details
 
-- **Competition**: IAI 2023 (Iranian AI Competition)
+- **Competition**: IAI 2023 (Isfahan AI Competition / Iranian AI Competition)
 - **Challenge**: Forecasting Drug Demand in Hospital Supply Chains
 - **Region**: Hamedan Province, Iran
 - **Hospitals**: 12 hospitals
 - **Timeframe**: 10-month prediction (Jan-Oct 2023)
 - **Result**: 🥇 **1st Place**
 
+## 📄 Publication
+
+This work has been published in the peer-reviewed journal:
+
+**Title**: Isfahan Artificial Intelligence Event 2023: Drug Demand Forecasting
+
+**Journal**: Journal of Medical Signals & Sensors
+**Volume**: 15, Issue 1
+**Pages**: 10.4103
+**Publisher**: Medknow
+**Publication Date**: January 2025
+
+**Abstract**:
+> **Background**: The pharmaceutical industry has seen increased drug production by different manufacturers. Failure to recognize future needs has caused improper production and distribution of drugs throughout the supply chain of this industry. Forecasting demand is one of the basic requirements to overcome these challenges. Forecasting the demand helps the drug to be well estimated and produced at a certain time.
+>
+> **Methods**: Artificial intelligence (AI) technologies are suitable methods for forecasting demand. The more accurate this forecast is, the better it will be to decide on the management of drug production and distribution. Isfahan AI competitions-2023 have organized a challenge to provide models for accurately predicting drug demand. In this article, we introduce this challenge and describe the proposed approaches that led to the most successful results.
+>
+> **Results**: A dataset of drug sales was collected in 12 hospitals in Hamedan province, covering multiple years of historical data. This challenge attracted various AI-based solutions, with the top-performing approaches utilizing deep learning architectures including LSTM and BiLSTM networks combined with advanced feature engineering.
+
 ## 📝 Citation
 
-If you use this work, please cite:
+If you use this work, please cite the published paper:
 
 ```bibtex
-@misc{iai2023-drug-demand,
-  title={IAI 2023 1st Place Solution: Forecasting Drug Demand in Hospital Supply Chains},
-  author={[Team Name]},
+@article{jahani2025isfahan,
+  title={Isfahan Artificial Intelligence Event 2023: Drug Demand Forecasting},
+  author={Jahani, Meysam and Zojaji, Zahra and Montazerolghaem, AhmadReza and Palhang, Maziar and Ramezani, Reza and Golkarnoor, Ahmadreza and Akhavan Safaei, Alireza and Bahak, Hossein and Saboori, Pegah and Soufi Halaj, Behnam and Naghsh-Nilchi, Ahmad R and Mohamadpoor, Fatemeh and Jafarizadeh, Saeid},
+  journal={Journal of Medical Signals \& Sensors},
+  volume={15},
+  number={1},
+  pages={10.4103},
+  year={2025},
+  publisher={Medknow}
+}
+```
+
+**Note**: For citing this specific implementation repository:
+
+```bibtex
+@misc{iai2023-implementation,
+  title={IAI 2023 1st Place Solution: Implementation of Drug Demand Forecasting},
+  author={Akhavan Safaei, Alireza and team},
   year={2023},
   publisher={GitHub},
-  howpublished={https://github.com/[username]/IAI-2023-1st-place-Forecasting-Drug-Demand-in-Hospital-Supply-Chains}
+  howpublished={\url{https://github.com/akhavansafaei/IAI-2023-1st-place-Forecasting-Drug-Demand-in-Hospital-Supply-Chains}}
 }
 ```
 
 ## 🤝 Contributors
 
-This solution was developed for the IAI 2023 competition and achieved 1st place in the drug demand forecasting challenge.
+This solution was developed by a collaborative team for the IAI 2023 competition:
+
+**Team Members** (as listed in the published paper):
+- Meysam Jahani
+- Zahra Zojaji
+- AhmadReza Montazerolghaem
+- Maziar Palhang
+- Reza Ramezani
+- Ahmadreza Golkarnoor
+- **Alireza Akhavan Safaei**
+- Hossein Bahak
+- Pegah Saboori
+- Behnam Soufi Halaj
+- Ahmad R Naghsh-Nilchi
+- Fatemeh Mohamadpoor
+- Saeid Jafarizadeh
+
+This collaborative effort achieved **1st place** in the IAI 2023 drug demand forecasting challenge.
 
 ## 📧 Contact
 
